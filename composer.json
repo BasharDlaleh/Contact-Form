@@ -1,0 +1,17 @@
+{
+    "name": "bashar/contactform",
+    "description": "a contact form for sending emails",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bashar Dlaleh",
+            "email": "bb556119@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BasharDlaleh\\Contact\\": "src/"
+        }
+    }
+}
