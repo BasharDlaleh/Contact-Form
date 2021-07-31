@@ -17,7 +17,7 @@ class ContactController extends Controller
 
     public function send(Request $request){
         
-        // config('contact.admin.email') will return admin email from config/contact.php in the pkg folder unless it's published then it will return from the published customized file
+        // config('contact.admin.email') will return admin email from config/contact.php in the pkg folder unless it's published then it will return from the published customized contact.php file
         Mail::to(config('contact.admin.email'))->send(new ContactMail($request->name, $request->email, $request->message));
         
         Contact::create($request->all());
