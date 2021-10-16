@@ -1,3 +1,7 @@
 # contact form pkg
 
-## a contact form for sending emails
+## a simple contact form Laravel package for sending emails
+
+### How to install
+
+composer require bashardlaleh/contactform
